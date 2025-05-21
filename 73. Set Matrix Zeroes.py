@@ -26,5 +26,3 @@ class Solution:
     if shouldFillFirstCol:
       for row in matrix:
         row[0] = 0
-
-
