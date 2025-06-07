@@ -1,0 +1,15 @@
+# Last updated: 6/7/2025, 7:24:34 AM
+class Solution:
+  def clearStars(self, s: str) -> str:
+    ans = list(s)
+    buckets = [[] for _ in range(26)]
+
+    for i, c in enumerate(s):
+      if c == '*':
+        ans[i] = ''
+        j = next(j for j, bucket in enumerate(buckets) if bucket)
+        ans[buckets[j].pop()] = ''
+      else:
+        buckets[ord(c) - ord('a')].append(i)
+
+    return ''.join(ans)
