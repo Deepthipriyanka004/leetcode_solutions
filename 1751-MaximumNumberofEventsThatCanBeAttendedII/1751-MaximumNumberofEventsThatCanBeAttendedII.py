@@ -1,4 +1,4 @@
-# Last updated: 7/13/2025, 6:09:03 AM
+# Last updated: 7/13/2025, 6:09:17 AM
 class Solution:
   def maxValue(self, events: list[list[int]], k: int) -> int:
     events.sort()
