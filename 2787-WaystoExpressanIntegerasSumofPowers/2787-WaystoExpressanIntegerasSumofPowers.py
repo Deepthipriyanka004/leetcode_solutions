@@ -1,4 +1,4 @@
-# Last updated: 8/12/2025, 7:40:49 AM
+# Last updated: 8/12/2025, 7:41:17 AM
 class Solution:
   def numberOfWays(self, n: int, x: int) -> int:
     MOD = 1_000_000_007
