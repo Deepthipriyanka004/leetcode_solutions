@@ -1,4 +1,4 @@
-# Last updated: 6/2/2025, 6:38:57 PM
+# Last updated: 9/23/2025, 11:30:41 AM
 class Solution:
   def compareVersion(self, version1: str, version2: str) -> int:
     levels1 = version1.split('.')
