@@ -1,4 +1,4 @@
-// Last updated: 11/14/2025, 8:09:48 AM
+// Last updated: 11/14/2025, 8:10:14 AM
 class Solution {
  public:
   vector<vector<int>> rangeAddQueries(int n, vector<vector<int>>& queries) {
