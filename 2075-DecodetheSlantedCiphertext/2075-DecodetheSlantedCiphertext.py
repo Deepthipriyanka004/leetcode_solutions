@@ -1,4 +1,4 @@
-# Last updated: 4/4/2026, 10:13:07 PM
+# Last updated: 4/4/2026, 10:13:22 PM
 1class Solution:
 2  def decodeCiphertext(self, encodedText: str, rows: int) -> str:
 3    n = len(encodedText)
