@@ -1,4 +1,4 @@
-# Last updated: 7/10/2026, 8:56:49 PM
+# Last updated: 7/10/2026, 8:57:21 PM
 1class Solution:
 2    def pathExistenceQueries(
 3        self, n: int, nums: List[int], maxDiff: int, queries: List[List[int]]
